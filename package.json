@@ -1,0 +1,29 @@
+{
+  "name": "hello_world",
+  "version": "1.0.0",
+  "description": "For sonarqube testing",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sh4rj5/hello_world.git"
+  },
+  "keywords": [
+    "sonarqube",
+    "hello",
+    "world"
+  ],
+  "author": "Harry Suhendra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sh4rj5/hello_world/issues"
+  },
+  "homepage": "https://github.com/sh4rj5/hello_world#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  }
+}
